@@ -53,7 +53,6 @@ The primary objectives of this project were to:
 
 ## Business Value 
 This project demonstrates the application of SQL to solve real-world banking problems by transforming transactional data into meaningful insights. The analysis supports better lending decisions, improves operational efficiency, strengthens data quality, and enables management to identify areas of financial and operational risk.
-
 banking-sql-analysis/
 │
 ├── README.md
@@ -68,7 +67,4 @@ banking-sql-analysis/
 ├── Dashboard Screenshots/
 ├── Images/
 └── Insights & Recommendations.pdf
-
-
-
 This project demonstrates the application of SQL to solve real-world banking problems by transforming transactional data into meaningful insights. The analysis supports better lending decisions, improves operational efficiency, strengthens data quality, and enables management to identify areas of financial and operational risk.
