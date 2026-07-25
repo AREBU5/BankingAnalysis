@@ -1,4 +1,4 @@
-# BankingAnalysis
+# Banking Analysis
 Analyzing customers, deposits, loans,and cards for a synthetic retail bank ("PrimeBank" ) using SQL.
 # Banking Analytics Dashboard & SQL Analysis
 
