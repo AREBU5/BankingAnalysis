@@ -1,0 +1,95 @@
+
+Key Findings
+Bank Overview
+
+This analysis assessed approximately 60,000 customers, their deposit accounts, payment cards, transactions, and a 22,000-loan portfolio across 136 branches, providing a comprehensive view of customer behaviour, operational performance, and credit risk. The customer base is well balanced, comprising 31,344 males (52.24%), 27,412 females (45.69%), and 1,244 customers (2.07%) identifying as other. Customer acquisition remained consistent throughout the year, with monthly registrations ranging from 4,617 to 5,171, indicating stable business growth with minimal seasonal variation. Transaction activity was equally balanced, with 40.19% Withdrawals, 39.84% Deposits, and 19.97% Other Transactions, suggesting healthy customer cash flow and stable liquidity across the bank.
+
+The bank's loan portfolio demonstrates overall resilience, with 90.25% of total loan value either Active (63.98%) or Closed (26.27%), while 9.75% is classified as Defaulted (6.98%) or Written Off (2.77%), representing the bank's principal credit risk exposure. Operational analysis also identified 3,530 dormant accounts holding approximately ₹4.72 billion (£36.74 million) in customer funds, many of which remain linked to active payment cards, alongside 40,945 expired payment cards, highlighting opportunities to reduce servicing costs, strengthen fraud controls, and improve operational efficiency. Overall, the findings indicate a financially stable institution with a diversified customer base and a healthy lending portfolio, while also identifying clear opportunities to improve credit risk management, data quality, and operational governance to enhance profitability and long-term performance.
+
+
+Customers
+	•Maharashtra has the largest customer base with 11,981 customers, accounting for 19.97% of all customers.
+	•	Customer demographics remain balanced, comprising 31,344 males (52.24%), 27,412 females (45.69%), and 1,244 customers (2.07%) identifying as other.
+	•	Customer acquisition is consistent throughout the year, ranging from 4,617 registrations in February to 5,171 in August—a difference of only 554 customers, indicating no meaningful seasonality.
+	•	Private Salaried customers generate the highest economic value, with an average annual income of ₹1,834,832 and a combined income of ₹15.86 billion.
+	•	Although Freelancers represent the largest occupational segment, they record the lowest average annual income, suggesting lower overall earning capacity despite their volume.
+
+
+Accounts
+	•	The analysis identified 3,530 dormant accounts holding ₹4.72 billion (£36.74 million) in customer funds.
+	•	A significant proportion of these dormant accounts still have active payment cards, exposing the bank to operational inefficiencies, unnecessary card servicing costs, and potential fraud or compliance risks.
+	•	Branch-level analysis highlighted the top five branches by average customer balance, providing insight into where the bank’s highest-value deposits are concentrated.
+
+
+Transactions
+	•	Transaction activity is highly balanced:
+	•	Withdrawals: 40.19%
+	•	Deposits: 39.84%
+	•	Other transactions: 19.97%
+	•	Withdrawals exceed deposits by only 0.35 percentage points, indicating stable customer cash flow rather than sustained outflows.
+	•	Transaction records were standardised by consolidating Transfer In into Deposits and Transfer Out into Withdrawals, improving reporting accuracy and simplifying future analysis.
+
+
+
+Cards
+	•	The bank currently has 40,945 expired payment cards, indicating a sizeable inactive card portfolio.
+	•	Dormant accounts with active cards present an additional operational and compliance concern, as inactive customers continue to hold valid payment instruments.
+
+
+Loans
+	•	The loan portfolio is valued across four key statuses:
+	•	Active: 63.98%
+	•	Closed: 26.27%
+	•	Default: 6.98%
+	•	Written Off: 2.77%
+	•	Combined, Default and Written-off loans account for 9.75% of the total loan portfolio, representing the bank’s highest credit risk exposure.
+	•	Average loan values are broadly consistent across all loan statuses, indicating that loan size alone is not a strong predictor of repayment performance.
+
+
+Loan Risk by products
+	•	Education Loans recorded the highest number of defaults, making them the bank’s highest-risk loan product.
+	•	Gold Loans closely followed, indicating elevated repayment risk despite being asset-backed.
+	•	Personal Loans recorded the lowest number of defaults among the analysed loan products, making them comparatively lower risk.
+
+
+Business Impact
+	•	Higher default concentrations in Education and Gold Loans increase credit losses, reduce profitability, and may require tighter underwriting standards or enhanced collections strategies.
+	•	The relatively lower default rate for Personal Loans suggests current lending and risk assessment practices for this product are performing more effectively.
+
+
+Loan risk by Banks 
+The analysis of 136 branches reveals considerable variation in loan performance and credit risk. Ahmedabad Branch 2 recorded the highest default rate at 20.83%, with 5 defaults out of 24 loans, followed by Hyderabad Branch 5 (18.52%), Kolkata Branch 3 (16.67%), and Lucknow Branch 8 (16.67%). These branches represent the highest credit risk and should be prioritised for review.
+In contrast, several branches, including Chandigarh Branch 3, Mumbai Branch 2, Ahmedabad Branch 8, Indore Branch 3, and Chennai Branch 8, achieved a 0% default rate, demonstrating strong lending and credit monitoring practices despite managing between 19 and 35 loans.
+The analysis also shows that larger loan portfolios do not necessarily lead to higher risk. For example, Pune Branch 6 managed the largest portfolio shown (74 loans worth 28.63 million) but recorded a 13.51% default rate, lower than several branches with much smaller loan books. This indicates that loan quality is driven more by underwriting standards than portfolio size.
+Write-off patterns also differed across branches. Chandigarh Branch 3 recorded the highest write-off rate (9.52%) despite having no current defaults, suggesting write-offs may be linked to older non-performing loans rather than recent lending activity.
+
+Data Quality & Operational Risks
+	•	Several loans marked as Closed have no corresponding repayment records in the loan payments table (e.g., Loan ID 183729).
+	•	This inconsistency may be caused by:
+	•	Missing repayment transactions.
+	•	Incomplete data migration.
+	•	Incorrect loan status assignments.
+	•	If unresolved, these issues could affect financial reporting, regulatory compliance, portfolio performance measurement, and management decision-making.
+
+
+
+Recommendation Summary
+
+-	Strengthen credit risk management by reviewing underwriting standards and enhancing monitoring for Education and Gold Loans, which recorded the highest default rates.
+
+-	Prioritise high-risk branches for detailed portfolio reviews and replicate best practices from branches with 0% default rates to improve lending performance.
+
+-	Reduce operational risk by closing or reactivating dormant accounts and deactivating unnecessary active cards linked to inactive customers.
+
+-	Improve card portfolio management by removing expired cards and strengthening card lifecycle controls to reduce servicing costs and fraud exposure.
+-	Enhance data quality by reconciling closed loans with missing repayment records to ensure accurate financial reporting, regulatory compliance, and reliable performance measurement.
+-	
+-	Leverage high-value customer segments, particularly Private Salaried customers, through targeted retention and cross-selling strategies to drive revenue growth.
+
+
+
+
+
+
+
+
