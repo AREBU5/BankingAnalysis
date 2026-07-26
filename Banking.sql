@@ -400,6 +400,36 @@ GROUP BY b.branch_name
 ORDER BY default_rate DESC;
 
 
+-- FRAUD Analysis 
+-- Total transaction was 202831, fradualent transaction was 1037, which is 0.51% of total transaction)
+SELECT  Count(*)AS Total_transaction, 
+		sum(is_fraud) AS Fraudulent_transactions,
+        Round(SUM(is_fraud) * 100/count(*),2) AS fraud_rate_percentage
+From card_transactions;
 
+-- Number of times fraud was reported by distint customer (No multiple incident)
+SELECT card_id, sum(is_fraud) AS SUM
+FROM card_transactions
+WHERE is_fraud >= 1
+GROUP BY card_id;
 
+SELECT
+	Year(txn_date) as year,
+    COUNT(*) AS Fraud_cases,
+    ROUND(sum(amount),2) as fraud_loss,
+    ROUND(avg(amount),2) as average_fraud_amount
+FROM card_transactions
+WHERE is_fraud =1
+GROUP BY YEAR(txn_date)
+ORDER BY year;
 
+SELECT
+	MONTH(txn_date) as Month_no,
+    MONTHNAME(txn_date) as Month,
+    COUNT(*) AS Fraud_cases,
+    ROUND(sum(amount),2) as fraud_loss,
+    ROUND(avg(amount),2) as average_fraud_amount
+FROM card_transactions
+WHERE is_fraud =1
+GROUP BY MONTH(txn_date),MONTHNAME(txn_date)
+ORDER BY Month_no;
