@@ -2,10 +2,11 @@
 Key Findings
 Bank Overview
 
-This analysis assessed approximately 60,000 customers, their deposit accounts, payment cards, transactions, and a 22,000-loan portfolio across 136 branches, providing a comprehensive view of customer behaviour, operational performance, and credit risk. The customer base is well balanced, comprising 31,344 males (52.24%), 27,412 females (45.69%), and 1,244 customers (2.07%) identifying as other. Customer acquisition remained consistent throughout the year, with monthly registrations ranging from 4,617 to 5,171, indicating stable business growth with minimal seasonal variation. Transaction activity was equally balanced, with 40.19% Withdrawals, 39.84% Deposits, and 19.97% Other Transactions, suggesting healthy customer cash flow and stable liquidity across the bank.
+Executive Summary
 
-The bank's loan portfolio demonstrates overall resilience, with 90.25% of total loan value either Active (63.98%) or Closed (26.27%), while 9.75% is classified as Defaulted (6.98%) or Written Off (2.77%), representing the bank's principal credit risk exposure. Operational analysis also identified 3,530 dormant accounts holding approximately ₹4.72 billion (£36.74 million) in customer funds, many of which remain linked to active payment cards, alongside 40,945 expired payment cards, highlighting opportunities to reduce servicing costs, strengthen fraud controls, and improve operational efficiency. Overall, the findings indicate a financially stable institution with a diversified customer base and a healthy lending portfolio, while also identifying clear opportunities to improve credit risk management, data quality, and operational governance to enhance profitability and long-term performance.
+	This analysis examined approximately 60,000 customers, their deposit accounts, payment cards, over 202,000 card transactions, and a 22,000-loan portfolio across 136 branches, providing a comprehensive assessment of customer behaviour, operational efficiency, credit risk, and fraud exposure. The customer base is well balanced, comprising 31,344 males (52.24%), 27,412 females (45.69%), and 1,244 customers (2.07%) identifying as other. Customer acquisition remained stable throughout the year, with monthly registrations ranging from 4,617 to 5,171, while transaction activity was evenly distributed across Withdrawals (40.19%), Deposits (39.84%), and Other Transactions (19.97%), reflecting consistent customer engagement and healthy liquidity. Fraud analysis identified 1,037 fraudulent transactions from 202,831 card transactions, representing a low fraud rate of 0.51%; however, these incidents resulted in more than £1.79 million in losses. Fraud activity peaked in 2023 with 150 cases and £246,652.03 in losses, while January recorded the highest monthly fraud volume (103 cases). Notably, no customer experienced more than one reported fraud incident, suggesting fraud was dispersed across the customer base rather than concentrated among repeat victims.
 
+	The bank’s lending portfolio remains resilient, with 90.25% of total loan value classified as Active (63.98%) or Closed (26.27%), while 9.75% is either Defaulted (6.98%) or Written Off (2.77%), representing the institution’s primary credit risk exposure. Operational analysis identified 3,530 dormant accounts holding approximately ₹4.72 billion (£36.74 million) in customer funds, many of which remain linked to active payment cards, alongside 40,945 expired payment cards, highlighting opportunities to improve operational efficiency, strengthen fraud controls, and reduce servicing costs. Overall, the analysis indicates a financially stable institution with a diversified customer base, a strong lending portfolio, and a low incidence of fraud, while identifying clear opportunities to enhance credit risk management, fraud prevention, data quality, and operational governance to improve long-term performance and profitability.
 
 Customers
 	•Maharashtra has the largest customer base with 11,981 customers, accounting for 19.97% of all customers.
@@ -71,20 +72,22 @@ Data Quality & Operational Risks
 	•	Incorrect loan status assignments.
 	•	If unresolved, these issues could affect financial reporting, regulatory compliance, portfolio performance measurement, and management decision-making.
 
+Fraud Analysis Summary
+
+	Analysis of 202,831 card transactions identified 1,037 fraudulent transactions, resulting in an overall fraud rate of 0.51% (approximately 1 in every 196 transactions). Despite the relatively low occurrence, fraudulent transactions resulted in over £1.79 million in total financial losses, with an average fraud value ranging between £1,600 and £1,940 per transaction.
+
+	Fraud activity remained fairly consistent between 2018 and 2025, with annual fraud cases ranging from 102 to 150. 2023 recorded the highest fraud volume (150 cases) and the greatest financial loss (£246,652.03), while 2024 had the lowest number of fraud cases (102) among the full years analysed. Monthly analysis showed January experienced the highest fraud activity (103 cases, £191,246.73 in losses), whereas November recorded the fewest incidents (66 cases) and the lowest losses (£110,836.90). Additionally, no customer experienced more than one reported fraud incident, indicating that fraudulent activity was spread across individual customers rather than concentrated among repeat victims, suggesting opportunistic attacks rather than repeated account compromise.
 
 
 Recommendation Summary
-
--	Strengthen credit risk management by reviewing underwriting standards and enhancing monitoring for Education and Gold Loans, which recorded the highest default rates.
-
--	Prioritise high-risk branches for detailed portfolio reviews and replicate best practices from branches with 0% default rates to improve lending performance.
-
--	Reduce operational risk by closing or reactivating dormant accounts and deactivating unnecessary active cards linked to inactive customers.
-
--	Improve card portfolio management by removing expired cards and strengthening card lifecycle controls to reduce servicing costs and fraud exposure.
--	Enhance data quality by reconciling closed loans with missing repayment records to ensure accurate financial reporting, regulatory compliance, and reliable performance measurement.
--	
--	Leverage high-value customer segments, particularly Private Salaried customers, through targeted retention and cross-selling strategies to drive revenue growth.
+	•	Strengthen credit risk management by tightening underwriting standards and enhancing monitoring for Education and Gold Loans, which recorded the highest default rates, while replicating successful lending practices from branches with consistently low or zero default rates.
+	•	Enhance fraud detection and prevention by implementing real-time transaction monitoring for high-risk merchant categories and high-value transactions. Although only 0.51% of transactions were fraudulent, losses exceeded £1.79 million, highlighting the financial impact of even low fraud volumes.
+	•	Increase fraud surveillance during high-risk periods, particularly January and throughout years with elevated fraud activity such as 2023, by applying risk-based authentication and transaction limits where appropriate.
+	•	Reduce operational risk by identifying dormant accounts, deactivating unnecessary active cards linked to inactive customers, and removing expired cards to minimise servicing costs and reduce potential fraud exposure.
+	•	Improve data quality and governance by reconciling closed loans with missing repayment records and strengthening data validation processes to ensure accurate financial reporting, regulatory compliance, and reliable performance measurement.
+	•	Adopt a bank-wide fraud prevention strategy rather than focusing solely on repeat victims, as the analysis found no customer experienced multiple reported fraud incidents, indicating fraud was dispersed across the customer base.
+	•	Leverage high-value customer segments, particularly Private Salaried customers, through targeted retention, personalised product offerings, and cross-selling initiatives to increase customer lifetime value and drive sustainable revenue growth.
+	•	Develop interactive risk dashboards combining loan performance, branch defaults, fraud trends, card activity, and customer behaviour to enable proactive monitoring, faster decision-making, and early identification of emerging risks.
 
 
 
